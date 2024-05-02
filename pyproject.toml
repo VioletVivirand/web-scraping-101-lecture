@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "web-scraping-101-lecture"
+version = "0.1.0"
+description = ""
+authors = ["Violet Vivirand <purpleslovemail@gmail.com>"]
+readme = "README.md"
+packages = [{include = "web_scraping_101_lecture"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+jupyter = "^1.0.0"
+jupyterlab = "^4.1.8"
+requests = "^2.31.0"
+beautifulsoup4 = "^4.12.3"
+html5lib = "^1.1"
+
+[tool.poetry.group.dev.dependencies]
+ipython = "^8.24.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
